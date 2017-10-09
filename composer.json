@@ -1,0 +1,31 @@
+{
+    "name": "elfsundae/urlsafe-base64",
+    "type": "library",
+    "description": "URL safe base64 encoding for PHP",
+    "keywords": ["base64", "urlsafe"],
+    "homepage": "https://github.com/ElfSundae/urlsafe-base64",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elf Sundae",
+            "email": "elf.sundae@gmail.com",
+            "homepage": "https://0x123.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~5.4"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
