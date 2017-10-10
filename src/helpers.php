@@ -23,6 +23,6 @@ if (! function_exists('urlsafe_base64_decode')) {
      */
     function urlsafe_base64_decode($data, $strict = false)
     {
-        return base64_decode(strtr($data.str_repeat('=', (4 - strlen($data) % 4)), '-_', '+/'), $strict);
+        return base64_decode(strtr($data, '-_', '+/'), $strict);
     }
 }
