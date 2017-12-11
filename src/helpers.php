@@ -2,7 +2,7 @@
 
 if (! function_exists('urlsafe_base64_encode')) {
     /**
-     * Encodes the given data with base64, and returns an URL safe string.
+     * Encodes the given data with base64, and returns a URL safe string.
      *
      * @param  string  $data
      * @return string
